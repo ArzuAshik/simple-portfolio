@@ -1,14 +1,20 @@
 body{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    background-image: url('images/top-banner.png');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 .half-width{
     width: 40%;
     float: left;
-    padding: 0 5%;
+    margin: 20px 5%;
+    box-sizing: border-box;
 }
 
 .half-width img{
@@ -18,8 +24,16 @@ body{
 h1{
     font-size: 50px;
 }
-.orange-hilight{
+.orange-highlight{
     color: orange;
+}
+
+h2{
+    font-size: 40px;
+}
+
+p{
+    color: dimgray;
 }
 
 .button{
@@ -30,4 +44,39 @@ h1{
     color: #fff;
     font-weight: bold;
     letter-spacing: 2px;
+}
+
+.dream{
+    background-image: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    overflow: hidden;
+}
+
+.experiance{
+    background-image: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    overflow: hidden;
+}
+
+
+.single-exp{
+    height: 300px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 7px solid;
+}
+
+#full-stack{    
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby{
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
 }
